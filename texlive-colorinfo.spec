@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/colorinfo
+# catalog-date 2007-02-03 12:09:11 +0100
+# catalog-license lppl
+# catalog-version 0.3c
 Name:		texlive-colorinfo
 Version:	0.3c
 Release:	1
@@ -37,6 +43,7 @@ TeXLive colorinfo package.
 %{_texmfdistdir}/tex/latex/colorinfo/colorinfo.sty
 %doc %{_texmfdistdir}/doc/latex/colorinfo/README
 %doc %{_texmfdistdir}/doc/latex/colorinfo/colorinfo-test.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,3 +54,5 @@ TeXLive colorinfo package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
