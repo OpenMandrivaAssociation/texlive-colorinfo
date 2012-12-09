@@ -44,3 +44,18 @@ TeXLive colorinfo package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3c-2
++ Revision: 750372
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3c-1
++ Revision: 718097
+- texlive-colorinfo
+- texlive-colorinfo
+- texlive-colorinfo
+- texlive-colorinfo
+- texlive-colorinfo
+
