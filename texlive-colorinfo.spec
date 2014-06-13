@@ -6,7 +6,7 @@
 # catalog-version 0.3c
 Name:		texlive-colorinfo
 Version:	0.3c
-Release:	6
+Release:	7
 Summary:	Retrieve colour model and values for defined colours
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/colorinfo
