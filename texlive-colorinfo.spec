@@ -1,6 +1,6 @@
 Name:		texlive-colorinfo
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Retrieve colour model and values for defined colours
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/colorinfo
