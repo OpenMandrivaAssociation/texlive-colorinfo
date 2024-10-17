@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Retrieve colour model and values for defined colours
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/colorinfo
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/colorinfo
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorinfo.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/colorinfo.doc.r%{version}.tar.xz
